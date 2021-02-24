@@ -16,41 +16,41 @@ drop table if exists Project;
 drop table if exists Booth;
 drop table if exists Category;
 
-source SQL/Category.sql;
+source Category.sql;
 show warnings;
 
-source SQL/Booth.sql;
+source Booth.sql;
 show warnings;
 
-source SQL/Project.sql;
+source Project.sql;
 show warnings;
 
-source SQL/County.sql;
+source County.sql;
 show warnings;
 
-source SQL/School.sql;
+source School.sql;
 show warnings;
 
-source SQL/Grade.sql;
+source Grade.sql;
 show warnings;
 
-source SQL/Student.sql;
+source Student.sql;
 
-source SQL/Degree.sql;
+source Degree.sql;
 show warnings;
 
-source SQL/Judge.sql;
+source Judge.sql;
 show warnings;
 
-source SQL/Session.sql;
+source Session.sql;
 show warnings;
 
-source SQL/Schedule.sql;
+source Schedule.sql;
 show warnings;
 
-source SQL/Ranking.sql;
+source Ranking.sql
 show warnings;
 
-source SQL/Administrator.sql;
+source Administrator.sql;
 show warnings;
 
